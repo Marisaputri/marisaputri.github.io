@@ -6,10 +6,6 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-/* Terapkan box-sizing: border-box; ke semua element */
-* {box-sizing: border-box
-}
-
 body {
   font-family: "Lucida Grande";
 }
@@ -23,68 +19,59 @@ a {
 }
 
 header{
-  background-color: #feca57;
-  background-size: cover;
-  color: #fff;
-  width: 100%;
-  position: fixed;
-  z-index: 5;
-  top: 0;
+	background-color: #feca57;
+	color: #fff;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	top: 0;
 }
 
 .isi-header{
-  
-  padding: 0 15px;
-  margin: 0 auto;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
 .header-kiri{
-  float: left;
-  padding: 25px 40px;
-  font-size: 30px;
-
+	float: left;
+	padding: 20px 40px;
+	font-size: 25px;
 }
+
 
 
 li{
-  float: left;
-  padding: 25px 40px;
-  font-size: 30px
+	float: left;
+	padding: 20px 40px;
+	font-size: 20px
 }
 
 .header-kanan li:hover{
-  padding: 28px;
-  background-color: #ffda79;
-  display: block;
+	padding: 25px;
+	background-color: #ffda79;
+	display: block;
 }
 
-
-
-.promosi {
-  background-image:url(https://kundutirthoovraman.com/wp-content/uploads/2019/03/europe_banner.jpg);
-  background-size: cover;
-  text-align: center;
-  padding: 180px 0px 100px 0px;
-  color: rgb(236, 20, 20);
-  height: 900px;
-  width: 100%;
+.promosi{
+	background-image:url(https://kundutirthoovraman.com/wp-content/uploads/2019/03/europe_banner.jpg);
+	text-align: left;
+	padding: 180px 0px 100px 0px;
+	color: black;
+	height: 150px;
+	background-size: cover;
 }
 
 
 .judul-promosi h1{
-  font-size: 80px;
-  margin: 20px;
+	font-size: 30px;
+	margin: 5px;
 }
 
-.judul-promosi h2 {
-  font-size: 50px;
-  margin: 20px;
-  text-align: center;
-}
 
 .animasi-teks {
-  font-size: 50px;
-  color:#f8ec49;
+  font-size: 20px;
+  color:black;
   width: 100%;
   white-space:nowrap;
   overflow:hidden;
@@ -93,37 +80,66 @@ li{
 }
 
 
+.alasan{
+	height: 300px;
+	padding: 50px;
+	background-color: rgba(255,165,0,0.3);
+  	text-align: center;
+  	margin: 145px 0px 100px 0px;
+  	width: 1250px;
+}
+
+
+.alasan h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+.isi-alasan{
+	float: left;
+	margin: 55px;
+}
+
+.isi-alasan p{
+	font-size: 20px;
+	text-align: center;
+	width: 50%;
+}
+
+.isi-alasan img{
+	width: 100px;
+	height: 100%;
+	padding: 10px;
+	position: relative;
+}
+
 .pilih-tour{
-  margin: 50px;
+	margin: 50px;
 }
 
 .judul-tour{
-  font-size: 40px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 200px;
-  padding-bottom: 30px;
-  color:#82fa3c;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .search {
   width: 100%;
   position: relative;
   display: flex;
-  padding: 100px;
 }
 
 .searchTerm {
-  width: 80%;
-  border: 4px solid #ffd966;
+  width: 100%;
+  border: 3px solid #ffd966;
   border-right: none;
-  padding: 20px;
+  padding: 5px;
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
-  font-size: 24px;
 }
 
 .searchTerm:focus{
@@ -131,9 +147,9 @@ li{
 }
 
 .searchButton {
-  width: 60px;
-  height: 68px;
-  border: 4px solid #ffd966;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ffd966;
   background: #ffd966;
   text-align: center;
   color: #fff;
@@ -142,7 +158,7 @@ li{
   font-size: 20px;
 }
 
-.cari-tour {
+.cari-tour{
   width: 50%;
   position: relative;
   top: 50%;
@@ -150,122 +166,55 @@ li{
   transform: translate(-50%, -50%);
 }
 
-
-
-.alasan{
-  height: 300px;
-  padding: 20px;
-  background-color: rgba(255,165,0,0.3);
-  text-align: center;
+.judul-idn h3{
+	text-align: center;
 }
-
-
-.alasan h3{
-  text-align: center;
-  font-size: 50px;
-}
-
-.isi-alasan{
-  float: left;
-  margin: 50px 150px;
-  padding: 30px;
-  
-}
-
-.isi-alasan p {
-  font-size: 24px;
-  text-align: center;
-  padding-bottom: 20px;
-  
-}
-
-.isi-alasan img{
-  width: 100px;
-  height: 100%;
-  padding: 10px;
-  position: relative;
-}
-
-.destinasi-idn {
-  background-color:#e3e4e3;
-  padding: 50px;
-  height: 1080px;
-}
-
-.judul-idn h3 {
-  text-align: center;
-  font-size: 50px;
-  padding-bottom: 20px;
-  color:#ec1212;
-  width: 100%;
-}
-
-
 
 .konten {
   float: right;
   margin: 0 auto;
   width: 33%;
   padding-left: 1px;
- 
   
 }
 
+
 .isi-konten {
-    float: right;
-    margin-right: 140px;
-    margin-left: 300px ;
-    margin-top: 0px;
-    position: relative;
-    
+  float: left;
+  width: 100%;
+  margin: 0px 30px 30px 30px;
 }
 
 
-.gambar-konten {
-    float: right;
-    width: 1170px;
-    margin-right: 10px;
-    margin-left: 80px;
-    margin-top: 10px;
-    
-    
-}
-
-.gambar-konten p {
-    color:rgb(2, 45, 85);
-    font-size: 28px;
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 100px;
-    
+.gambar-konten p{
+  top: 90px;
+  width: 80%;
+  color: black;
+  text-align: center;
 }
 
 .gambar-konten img{
-  width: 
+	width: 80%;
 }
 
-.materi-konten {
+.materi-konten{
   display: inline-block;
-  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 70px;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   color: green;
 }
 
+
 .tombol-tekan {
   padding: 15px 40px;
   background-color: #5dca88;
-  /* Ubah property cursor ke pointer */
   cursor: pointer;
   color:#fff;
-  /* Ubah property box-shadow */
   box-shadow: 0px 7px #1a7940;
 }
 
@@ -276,37 +225,37 @@ li{
     padding: 20px;
     }
 
-footer { 
-  color: rgb(4, 43, 58);
-  height: 160px;
-  width: 100%;
-  
+footer{
+	color: black;
 }
 
-.footer {
-  padding: 40px;
-  height: 160px;
-  background-color: #feca57; 
-  padding: 40px;
+.isi-footer{
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
-.footer-kiri { 
-  font-size: 40px;
-  font-color: black;
-  float: left; 
+.footer-kiri{
+	float: left;
+	padding: 30px 30px;
+	font-size: 15px;
 }
 
-.footer-kanan {
-  float: right;
-}
-.footer li {
-  padding-bottom: 10px;
-  font-size: 30px;
-  
+.footer-kanan{
+	float: right;
 }
 
-@media (min-width: 560px){
-  .konten{
-    width: 50%;
-  }
+@media screen and (max-width: 700px){
+	.alasan{
+		width: 50%;
+	}
+
+	header{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.destinasi-idn{
+		width; 50%;
+	}
 }
